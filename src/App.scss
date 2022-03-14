@@ -1,0 +1,25 @@
+@use "./assets/styles/index" as *;
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.overlay {
+  @include center();
+  flex-direction: column;
+  background-color: rgb(151, 241, 219);
+  height: 100vh;
+  width: 100%;
+}
+
+.score {
+  display: flex;
+}
+
+.question__label {
+  cursor: pointer;
+}
